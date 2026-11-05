@@ -469,7 +469,6 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
-      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -517,8 +516,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -659,15 +658,15 @@
       {
         "filename": "clouds.kicad_sch",
         "name": "Root",
-        "uuid": "a2596334-a9a7-4af2-ad74-82670b805004"
+        "uuid": "6a179fb7-d471-450c-b5cf-c2bff0ff6b2c"
       }
     ],
-    "used_designators": "C1-8,D1,J1-2,P1,Q1,R1-9,RV1,U1-2",
+    "used_designators": "#PWR1-2",
     "variants": []
   },
   "sheets": [
     [
-      "a2596334-a9a7-4af2-ad74-82670b805004",
+      "6a179fb7-d471-450c-b5cf-c2bff0ff6b2c",
       "Root"
     ]
   ],
