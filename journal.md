@@ -10,12 +10,12 @@ so firstly i am writing this but other than that i basically stopped talking to 
 
 so i replace the whole overcomplicated circuit i had with a 55 for ac generation to just use a LTC1799, its a dc to ac generator that generates based on like a resistor a division factor controlled by just two pins, and so basically it made my life a lot a lot easier and i didnt have to deal with as much bullshit cuz i lowk havent used the 555 which is crazy but i just use mcus for the most part, anyways so i in the end got a usb 6pin for power only with 2 resistors at 5.1k so it can do c to c and then ofc i have my decoupling caps on everything like the components and as for the components like i mentioned i have a LTC1799, and then i also have a AD8307ANZ, this goober is just a log amp and from what i know, it, well while it isnt perfect at it it converts the like logarithmic response curve of the hr202 to sum normal that can then be read by a voltimeter, which is basically all i do, evereything goes out to 3 pins, one for voltimeter like signal, the others for 5v and gnd and then thats abt it really, the pcb is also pretty small, anyways ill attatch images of everything now, thanks for reading :)
 
-![[cloudsensor/pcb/schematic.png]]![[cloudsensor/pcb/pcb.png]]![[render.png]]
+![[cloudsensor/images/schematic.png]]![[cloudsensor/images/pcb.png]]![[render.png]]
 
 oh lastly for credits i did use deepseek for a lot of help as im new to not working with an mcu lol, but yeah i had a lot of fun and im happy its done!
 
 oh lastly heres the bom.csv
-![[cloudsensor/pcb/bom.png]]
+![[cloudsensor/images/bom.png]]
 
 so with a bom done and this journal and the pcb all thats left is to fix up the readme and ship :)
 
